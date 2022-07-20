@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas 
+            cm, mm, in(polegada), px, pt(ponto), pc(paica)
+
+            Medidas Relattivas
+            em(medida relativa ao tamanho atual da fonte(M maiusculo)), ex(relativo altura x), rem (tipo "em" mas relativo mas relativo ao body), vw(relativo a largura da view port"%"), vh(altura da view port), %(relacao tamanho da tela)
+            16px geralmente = 1em
+            Recomendacao da w3c que se use sempre "px" e "em"
+            */
+            font-size: 1em; /* 16bpx geralmente e o tamanho da fonte padrao */
+            font-weight: normal;
+            /* lighter normal bold bolder */
+            font-style: italic;
+            text-decoration: underline;
+
+            /* weight(peso), width(largura), height(altura) */
+        }
+
+        h1{
+            /*  font-family: 'Work Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic; */
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit a veniam ullam quis quam, illum quae soluta aliquid eligendi atque est iusto natus dolorem repellat laborum dolore ad delectus sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis accusantium similique blanditiis corporis quia quae neque. Tempore totam, provident, consequuntur, ullam libero ut rerum eius eum delectus voluptas eveniet dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt expedita sequi corrupti aliquam cupiditate cum sint pariatur sit earum, nesciunt voluptas excepturi repudiandae rem magni nihil rerum eveniet. Corrupti, repellat!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse explicabo tempora distinctio! Consequuntur, tenetur aliquid vel officia, totam a exercitationem at quae ipsum fuga nobis tempore fugiat illo assumenda illum?</p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, officia consectetur pariatur nobis corporis officiis neque maiores blanditiis ad quibusdam dicta inventore omnis, atque tempore nihil natus perspiciatis repellendus laboriosam!</p>
+</body>
+</html>
