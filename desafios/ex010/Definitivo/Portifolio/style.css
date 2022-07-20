@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #FF6254;
+    --cor1: #CC1706;
+    --cor2: #FF1A07;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+    color: white;
+    min-height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main {
+    justify-content: center;
+}

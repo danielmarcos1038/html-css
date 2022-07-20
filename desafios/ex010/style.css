@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top, #025940, #03A64A);
+    color: white;
+}
+
+section#menu {
+    text-align: left;
+    color: white;
+}
+section > nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+section#menu:hover > nav > a{
+    color: black;
+}
+
+main {
+    background-color: #45F79E;
+}
+
+section#article {
+    text-align: justify;
+    padding: 10px 13%;
+    margin: 20px 10%;
+}
+
